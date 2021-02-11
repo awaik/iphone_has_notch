@@ -1,14 +1,19 @@
 # iphone_has_notch
 
-A new Flutter package project.
+A very simple package with one function - returns true if phone is iPhone and it has notch. Package
+has no any dependencies and work on any platform.
+
+![Showcase|400x200, 30%](https://github.com/awaik/iphone_has_notch/blob/main/example/assets/example.png?raw=true)
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+Install the package. Use code
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```
+import 'package:iphone_has_notch/iphone_has_notch.dart';
+```
+
+```
+Text('This phone is iPhone and it has notch'),
+Text('${IphoneHasNotch.hasNotch}'),
+```
