@@ -4,8 +4,8 @@ import 'dart:io';
 import 'dart:ui' as ui;
 
 class IphoneHasNotch {
-  /// Returns true in case it is iPhone & it has notch.
 
+  /// Returns true in case it is iPhone & it has notch.
   static bool get hasNotch {
     if (Platform.isIOS &&
         (ui.window.physicalSize.height == 812 ||
