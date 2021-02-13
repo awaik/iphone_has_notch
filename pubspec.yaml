@@ -1,6 +1,6 @@
 name: iphone_has_notch
 description: Returns true if the phone is iPhone and it has notch, returns false otherwise.
-version: 0.0.1+1
+version: 0.0.1+2
 homepage: https://github.com/awaik/iphone_has_notch
 
 environment:
