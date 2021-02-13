@@ -29,22 +29,27 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text(widget.title),
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: Container(
+        width: MediaQuery.of(context).size.width,
+        height: MediaQuery.of(context).size.height,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Text(
+              'This phone is iPhone and it has notch',
+              style: TextStyle(fontSize: 16, color: Colors.black),
+            ),
+            Text(
+              '${IphoneHasNotch.hasNotch}',
+              style: TextStyle(fontSize: 30, color: Colors.blue[800]),
+            ),
+          ],
         ),
-        body: Container(
-          width: MediaQuery.of(context).size.width,
-          height: MediaQuery.of(context).size.height,
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Text('This phone is iPhone and it has notch', style: TextStyle(fontSize: 16, color: Colors.black),),
-              Text('${IphoneHasNotch.hasNotch}', style: TextStyle(fontSize: 30, color: Colors.blue[800]),),
-            ],
-          ),
-        ),
-
+      ),
     );
   }
 }

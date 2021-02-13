@@ -1,5 +1,4 @@
 library iphone_has_notch;
-
 import 'dart:io';
 import 'dart:ui' as ui;
 
