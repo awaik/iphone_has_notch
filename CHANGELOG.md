@@ -1,3 +1,7 @@
+## [1.0.0] - 08.03.2021
+
+* Null safety
+
 ## [0.0.2] - 18.02.2021
 
 * Fixed detection bug
